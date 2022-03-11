@@ -1,0 +1,164 @@
+body {
+    background-color: #FEF5ED;
+    text-align: center;
+    margin: 0;
+    font-family: 'Urbanist', sans-serif;
+    color: #362706;
+}
+
+p {
+    color:#394121;
+    font-family: 'Urbanist', sans-serif;
+    font-size: larger;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+a {
+    color:#394121;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#60684a
+}
+
+hr {
+    height: 0px;
+    border-style: none;
+    border-top-style: dotted;
+    border-top-color: #ACB992;
+    border-width: 10px;
+    width: 5%;
+}
+
+/************ TOP CONTAINER **********/
+
+.topcontainer {
+    background-color: #E9E5D6;
+    position: relative;
+    padding-top: 100px;
+}
+
+.nuvemtop {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    right: 250px;
+    top: 50px;
+}
+
+.eusouanatalia {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5rem;
+    color: #394121;
+    margin: 100px auto 0 auto;
+    line-height: 1;
+}
+
+.fullstack {
+    color: #394121;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.nuvembottom {
+    height: 100px;
+    width: 200px;
+    position: absolute;
+    left: 250px;
+}
+
+.mountain {
+    margin: 200px auto 50px auto;
+}
+
+/************ PERFIL ************/
+
+.perfil {
+    margin: 100px auto 100px auto;
+}
+
+.fotoperfil {
+    height: 250px;
+    width: 250px;
+}
+
+/********** SKILLS **********/
+
+.skills {
+    margin: 100px auto 100px auto;
+}
+
+.skillsrow {
+    width: 50%;
+    margin: 100px auto auto auto;
+    text-align: left;
+}
+
+.stars {
+    font-size: 1.5rem;
+    color:#60684a;
+}
+
+.logohtml {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-right: 30px;
+}
+
+.logocss {
+    height: 20%;
+    width: 20%;
+    float: right;
+    padding-left: 20px;
+}
+
+.logojs {
+    height: 20%;
+    width: 20%;
+    float: left;
+    padding-right: 30px;
+}
+
+.logoen {
+    height: 20%;
+    width: 20%;
+    float: right;
+    padding-left: 20px;
+}
+
+.logo {
+    position: relative;
+}
+
+.logo:hover img {
+    transform: scale(1.1, 1.1);
+}
+
+
+/*********** CONTACT ME **********/
+
+.contactme {
+    margin: 100px auto 100px auto;
+}
+
+/******* BOTTOM CONTAINER *********/
+
+.bottomcontainer {
+    background-color: #ACB992;
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+.footerlink {
+    font-size: 1.4rem;
+}
+
+.copyright {
+    font-size:0.75rem;
+}
+
